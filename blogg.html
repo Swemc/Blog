@@ -121,7 +121,12 @@
         	color: #555555;
         	text-decoration: none;
         }
-        iframe
+        #mainframe
+        {
+        	margin-top: 5px;
+        	border-radius: 4px;
+        }
+        #leftframe
         {
         	margin-top: 5px;
         	border-radius: 4px;
@@ -169,16 +174,32 @@
 			main är info från tabs Home clan CS:GO 
     		 -->
     			<div id="main">
-					<iframe src="IframeHome.html" width="700" height="665" name="main" scrolling="yes"
-					frameborder="0" marginheight="0" marginwidth="0">
-
+					<iframe 
+						id="mainframe"
+						src="IframeHome.html"
+						width="700" height="665"
+						name="main" 
+						scrolling="yes"
+						frameborder="0" 
+						marginheight="0" 
+						marginwidth="0">
 					</iframe>
     			</div>
     			<!--
     			left är Rank listan top 10
     			-->
     			<div id="left">
-
+    				<iframe 
+    					id="leftframe" 
+    					src="IframeLeft.html"
+    					width="265"
+    					height="700" 
+    					name="left" 
+    					scrolling="yes"
+    					frameborder="0" 
+    					marginheight="0" 
+    					marginwidth="0">
+    				</iframe>
     			</div>
     		</div>
     	</div>
