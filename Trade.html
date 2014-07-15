@@ -5,8 +5,9 @@
 		<style type="text/css">
 			body
 			{
-				height: 700px;
+				height: 900px;
 				width: 685px;
+				background-image:url('bilder/Main.png');
 			}
 
 			#left
@@ -20,20 +21,77 @@
 				float: right;
 				margin-right: 5px;
 			}
+			.ClanName
+			{
+				height: 20px;
+				width: auto;
+				text-align: center;
+				margin: 5px;
+
+			} 
+			.profil
+			{
+				height: 100px;
+				width: 190px;
+				background-color: #666666;
+				margin: 5px;
+				border-radius: 5px;
+
+			}
 			.clan
 			{
-				height: 600px;
+				height: 655px;
 				width: 200px;
 				background-color: #999999;
 				border-radius: 5px;
 				margin-top: 5px;
 			}
+			#inventory
+			{
+				background-color: #666666;
+				height: 260px;
+				width: 675px;
+				margin-top: 648px;
+				margin-left: 5px;
+				margin-bottom: 5px;
+				border-radius: 5px;
+			}
+			.ItemBox
+			{
+				width: 80px;
+				height: 80px;
+				background-color: #999999;
+				border-radius: 5px;
+				margin: 10px;
+				margin-top: 10px;
+				word-spacing: 5px;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="left" class="clan">
+			<div class="ClanName">
+				<a class="topnav">Fisk</a>
+			</div>
+			<div class="profil">
+
+			</div>
 		</div>
 		<div id="right" class="clan">
+			<div class="ClanName">
+				<a class="topnav">LoL</a>
+			</div>
+			<div class="profil">
+
+			</div>
+		</div>
+		<br >
+		<div id="inventory">
+			<div class="ItemBox"></div>
+			<div class="ItemBox"></div>
+			<div class="ItemBox"></div>
 		</div>
 	</body>
 </html>
+
+
